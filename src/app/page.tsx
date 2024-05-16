@@ -8,7 +8,7 @@ const Homepage = () => {
     >
       <div className="flex flex-col items-center col text-slate-700">
         <h1 className="font-bold text-5xl">Be right back!</h1>
-        <h2 className="font-medium text-2xl">Drawing up something new.</h2>
+        <h2 className="font-medium text-2xl">Drawing up something fresh.</h2>
         <h2 className="self-end text-slate-500">-dmbc</h2>
       </div>
       <LottieIcon
