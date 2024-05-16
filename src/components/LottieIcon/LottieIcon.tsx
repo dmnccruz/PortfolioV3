@@ -8,19 +8,17 @@ export interface LottieIconInterface {
   lottieRef?: LottieRef;
   loop?: boolean;
   style?: CSSProperties;
-  height?: number;
 }
 
 export const LottieIcon: React.FC<LottieIconInterface> = ({
   icon,
   lottieRef,
   style,
-  height,
   loop,
 }) => {
   return (
     <Lottie
-      style={{ height: height, ...style }}
+      style={style}
       lottieRef={lottieRef}
       loop={loop}
       animationData={icon}

@@ -9,9 +9,12 @@ const Homepage = () => {
       <div className="flex flex-col items-center col text-slate-700">
         <h1 className="font-bold text-5xl">Be right back!</h1>
         <h2 className="font-medium text-2xl">Drawing up something new.</h2>
-        <h2 className="self-end text-slate-500">-dom</h2>
+        <h2 className="self-end text-slate-500">-dmbc</h2>
       </div>
-      <LottieIcon icon={HomepageIcon} height={750} />
+      <LottieIcon
+        icon={HomepageIcon}
+        style={{ width: "100%", maxHeight: 750 }}
+      />
     </div>
   );
 };
